@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  --color-pink: #ff69b4;
+  --color-faint-pink: #ffd9ec;
+  --font-cinza: #e4eef1;
+  --font-principal: #000000;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  background-color: var(--color-faint-pink);
+}
+
+header {
+  height: 8vh;
+  background-color: var(--color-pink);
+  color: var(--font-cinza);
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+header .logo {
+  display: flex;
+  justify-content: space-evenly;
+}
+header .logo img {
+  width: 7.81vw;
+  height: 7.92vh;
+}
+header .logo h1 {
+  margin-top: 0.5em;
+}
+
+nav {
+  width: 40vw;
+  padding: 0.5em;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+nav li {
+  margin-left: 1em;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.retangulo2 {
+  width: 95vw;
+  height: 29.14vh;
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.retangulo2 p {
+  width: 30vw;
+  height: 20vh;
+  line-height: 1.3em;
+  padding: 1em;
+  font-size: 1em;
+}
+.retangulo2 img {
+  width: 20vw;
+}
+
+.retangulo3 {
+  height: 29.14vh;
+  background-color: var(--color-pink);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.retangulo3 img {
+  width: 20vw;
+}
+.retangulo3 p {
+  color: var(--font-cinza);
+  width: 30vw;
+  height: 20vh;
+  line-height: 1.3em;
+  align-items: center;
+  margin-top: 3.5em;
+  font-size: 1em;
+}
+
+.retangulo4 {
+  height: 47.38vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.retangulo4 img {
+  width: 21.8vw;
+  height: 21.8vh;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15.9vh;
+  background-color: var(--color-pink);
+  color: var(--font-cinza);
+}
+.rodape .icones-redes-sociais {
+  display: flex;
+  width: 4.53vw;
+  height: 6.67vh;
+  padding: 1em;
+}
+.rodape .info {
+  font-size: 1.2em;
+  text-align: center;
+}
+.rodape .gravata-rosa {
+  width: 8.2vw;
+  height: 12.12vh;
+}/*# sourceMappingURL=style.css.map */

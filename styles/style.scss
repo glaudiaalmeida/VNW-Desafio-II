@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  --color-pink: #ff69b4;
+  --color-faint-pink: #ffd9ec;
+  --font-cinza: #e4eef1;
+  --font-principal: #000000;
+
+}
+
+body{
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  background-color: var(--color-faint-pink);
+}
+
+header{
+  height: 8vh;
+  background-color: var(--color-pink);
+  color: var(--font-cinza);
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  .logo{  
+    display: flex;
+    justify-content: space-evenly;
+    img{
+      width: 7.81vw;
+      height: 7.92vh;
+    }
+    h1{
+       margin-top: .5em;     
+    }
+   
+  }
+}
+
+nav{
+  width: 40vw;
+  padding: .5em;
+  ul{
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none;
+  } 
+  li{
+    margin-left: 1em;
+  }
+}
+
+main{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.retangulo2{
+  width: 95vw;
+  height: 29.14vh;
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  p{
+    width: 30vw;
+    height: 20vh;
+    line-height: 1.3em;
+    padding: 1em;
+    
+    font-size: 1em;
+  }
+  img{
+    width: 20vw;
+
+  }
+}
+
+.retangulo3{
+  height: 29.14vh;
+  background-color: var(--color-pink);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  img{
+    width: 20vw;
+  }
+  p{
+    color: var(--font-cinza);
+    width: 30vw;
+    height: 20vh;
+    line-height: 1.3em;
+    align-items: center;
+    margin-top: 3.5em;
+    font-size: 1em;
+  
+  }
+}
+.retangulo4{
+  
+  height: 47.38vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  img{
+    width: 21.80vw;
+    height: 21.80vh;
+    
+  }
+}
+
+.rodape{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15.90vh;
+  background-color: var(--color-pink);
+  color: var(--font-cinza);
+  .icones-redes-sociais{
+    display: flex;
+    width: 4.53vw;
+    height: 6.67vh;
+    padding: 1em;
+  }
+  .info{
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .gravata-rosa{
+    width: 8.20vw;
+    height: 12.12vh;
+  }
+}
